@@ -17,13 +17,27 @@
 
     </style>
 </head>
-
 <body>
-<div class="overlay">
-    <div class="svg-container">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#c9d6ff" fill-opacity="1" d="M0,128L48,128C96,128,192,128,288,144C384,160,480,192,576,202.7C672,213,768,203,864,176C960,149,1056,107,1152,96C1248,85,1344,107,1392,117.3L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+  
+   <!-- BACKGROUND SVG WAVES STARTED -->
+
+  <div class="overlay">
+    <div class="custom-shape-divider-bottom-1667160440">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+          <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+          <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+      </svg>
   </div>
+    <!-- <div class="svg-container"> -->
+    <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#c9d6ff" fill-opacity="1" d="M0,128L48,128C96,128,192,128,288,144C384,160,480,192,576,202.7C672,213,768,203,864,176C960,149,1056,107,1152,96C1248,85,1344,107,1392,117.3L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg> -->
+  <!-- </div> -->
   </div>
+ 
+ <!-- BACKGROUND SVG WAVES END -->
+
+
+  <!-- NAVBAR STARTED -->
 
 
 <nav class="navbar navbar-expand-lg">
@@ -35,7 +49,7 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ">
         <li class="nav-item">
-          <a class="nav-link"  href="/dashboard">Home</a>
+          <a class="nav-link"  href="#">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#working">How it Works?</a>
@@ -47,30 +61,36 @@
           <a class="nav-link" href="#">About Us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/login">Login</a>
+          <a class="nav-link" href="#">Login</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" id="register-btn-home" href="/register">Register</a>
+          <a class="nav-link" id="register-btn-home" href="#">Register</a>
         </li>
-
+     
       </ul>
     </div>
   </div>
 </nav>
+<!-- NAVBAR ENDS -->
+
 
 
 <div class="section-1-landing">
 
-  <div class="img-container">
-  <!-- <img src="./Project_69-07-removebg-preview.png" alt="img" width="450px" height="300px"> -->
+  <div class="img-container text-center" >
+      <img class="main-img" src="./intro.png" alt="img" width="420px" height="350px">
+
 </div>
   <div class="section-1-text">
-  <h1>Clever.AI</h1>
-  <h3>Automation Tool</h3>
+  <h1 id="brand-heading">Clever.AI</h1>
+  <h3 id="brand-tagline mt-2">Automation Tool</h3>
   <br>
-  <h6 class="fw-bold" style="width: 40%;">Generate contet that helps you and your bussiness grow using</h6>
+  <h6 class="brand-title-desc text-secondary " >Generate contet that helps you and your bussiness grow.</h6>
 <br>
-
+  <div class="two-btns-container">
+    <button class="btns-section-1" id="get-started-btn">Get Started</button>
+    <button class="btns-section-1" id="contact-btn-landing">Contact Us</button>
+  </div>
 
 </div>
 
@@ -97,10 +117,15 @@
        give it a try and remember to leave us some feedback. </p>
     </div>
    -->
-
+  
     <div class="items-card-container p-3 rounded mt-4">
-      <div class="row ">
 
+      <h5 class="text-center text-secondary">
+        Generate content in seconds using </h5>
+      <h1 class="above-cards-heading text-center mb-4">Clever.AI </h1>
+
+      <div class="row ">
+        
         <div class="above-cards-section text-center mb-4">
         <!-- <h6 class="text-light fw-bold">Generate contet that helps you and your bussiness grow using</h6> -->
         <!-- <h1 class="mt-2 mb-2" id="ai-heading">ARTIFICIAL INTELLIGENCE</h1> -->
@@ -108,15 +133,15 @@
         <!-- One Item Starts Here -->
         <div class="col-lg-4 card-container  ">
 
-
+           
           <div class="card">
              <i class="fa-solid fa-bag-shopping"></i>
-
+        
             <!-- <div class="card-header">
               Product Description
             </div> -->
             <div class="card-body pt-5">
-
+              
               <h5 class="card-title">  Generate Product Descriptions </h5>
               <p class="card-text">Generate product descriptions for any types of products, simply enter the name and productdescription to get started.</p>
               <a href="/product-description" class="btn btn-primary">Get Started</a>
@@ -124,8 +149,8 @@
           </div>
         </div>
         <!-- One Item Ends here -->
-
-
+  
+  
         <!-- One Item Starts Here -->
         <div class="col-lg-4 card-container ">
           <div class="card">
@@ -141,8 +166,8 @@
           </div>
         </div>
         <!-- One Item Ends here -->
-
-
+  
+  
         <!-- One Item Starts Here -->
         <div class="col-lg-4 card-container ">
           <div class="card">
@@ -158,8 +183,8 @@
           </div>
         </div>
         <!-- One Item Ends here -->
-
-
+  
+  
         <!-- One Item Starts Here -->
         <div class="col-lg-4 card-container ">
           <div class="card">
@@ -175,8 +200,8 @@
           </div>
         </div>
         <!-- One Item Ends here -->
-
-
+  
+  
         <!-- One Item Starts Here -->
         <div class="col-lg-4 card-container ">
           <div class="card">
@@ -192,8 +217,8 @@
           </div>
         </div>
         <!-- One Item Ends here -->
-
-
+  
+  
         <!-- One Item Starts Here -->
         <div class="col-lg-4 card-container ">
           <div class="card">
@@ -209,12 +234,12 @@
           </div>
         </div>
         <!-- One Item Ends here -->
-
-
+  
+  
         <!-- One Item Starts Here -->
         <div class="col-lg-4 card-container ">
           <div class="card">
-            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-youtube"></i> 
             <!-- <div class="card-header">
               Youtube Videos
             </div> -->
@@ -226,7 +251,7 @@
           </div>
         </div>
         <!-- One Item Ends here -->
-
+  
         <!-- One Item Starts Here -->
         <div class="col-lg-4 card-container ">
           <div class="card">
@@ -242,16 +267,16 @@
           </div>
         </div>
         <!-- One Item Ends here -->
-
+  
       </div>
     </div>
 
 
 
-
+    
   </main>
 
-
+<!-- HOW IT WORKS SECTION -->
 
   <div class="container-fluid mt-5">
     <div class="working-section" id="working">
@@ -263,7 +288,7 @@
     </div>
   </div>
 
-
+<!-- PRICING SECTION -->
 <div class="container-fluid">
 
   <h2 class="text-center mb-3 mt-3">Pricing</h2>
@@ -284,12 +309,12 @@
     </ul>
     </div>
     <div class="plan-button">
-    <a href="#" class="purchase-btn">Purchase</a>
+    <a href="#" class="purchase-btn">Buy Now</a>
     </div>
     </div>
     </div>
-
-
+    
+    
     <div class="col-lg-4 col-md-4 col-xs-12 col-sm-10 mx-auto">
     <div class="pricing-table text-center">
     <div class="pricing-details">
@@ -305,12 +330,12 @@
     </ul>
     </div>
     <div class="plan-button">
-    <a href="#" class="purchase-btn">Purchase</a>
+    <a href="#" class="purchase-btn">Buy Now</a>
     </div>
     </div>
     </div>
-
-
+    
+    
     <div class="col-lg-4 col-md-4 col-xs-12 col-sm-10 mx-auto">
     <div class="pricing-table text-center">
     <div class="pricing-details">
@@ -326,25 +351,19 @@
     </ul>
     </div>
     <div class="plan-button">
-    <a href="#" class="purchase-btn">Purchase</a>
+    <a href="#" class="purchase-btn">Buy Now</a>
     </div>
     </div>
     </div>
-
+    
     </div>
 </div>
 
   {% endblock %}
 
-
+ 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
 
-
-
-
-<a href="{{url_for('logout')}}">Press here to logout</a>
-
 </body>
-
 </html>
