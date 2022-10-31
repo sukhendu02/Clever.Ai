@@ -35,7 +35,7 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ">
         <li class="nav-item">
-          <a class="nav-link"  href="#">Home</a>
+          <a class="nav-link"  href="/dashboard">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#working">How it Works?</a>
@@ -47,10 +47,10 @@
           <a class="nav-link" href="#">About Us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Login</a>
+          <a class="nav-link" href="/login">Login</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" id="register-btn-home" href="#">Register</a>
+          <a class="nav-link" id="register-btn-home" href="/register">Register</a>
         </li>
 
       </ul>
@@ -70,10 +70,7 @@
   <br>
   <h6 class="fw-bold" style="width: 40%;">Generate contet that helps you and your bussiness grow using</h6>
 <br>
-  <div class="two-btns-container">
-    <button class="btns-section-1" id="get-started-btn">Get Started</button>
-    <button class="btns-section-1" id="contact-btn-landing">Contact Us</button>
-  </div>
+
 
 </div>
 
@@ -343,7 +340,11 @@
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
 
-    <a href="{{url_for('logout')}}">Press here to logout</a>
+
+
+
+<a href="{{url_for('logout')}}">Press here to logout</a>
+
 </body>
 
 </html>
